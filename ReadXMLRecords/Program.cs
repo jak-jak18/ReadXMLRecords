@@ -16,7 +16,7 @@ namespace ReadXMLRecords
         {
 
          
-             string WorkingDirectory = @"C:\temp\xml";
+             string WorkingDirectory = @"C:\temp";
          
              int intTotalCounts;
 
