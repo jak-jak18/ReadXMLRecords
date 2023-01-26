@@ -13,10 +13,7 @@ namespace ReadXMLRecords
                 string XMLFileName = Path.GetFileName(FileName);
 
                 XmlDocument doc = new XmlDocument();
-                try
-                {
-                    doc.Load(FileName);
-                }
+                try { doc.Load(FileName); }               
                 catch (Exception ex)
                 {
                     //File.Move(FileName, POPath1 + POFileName);
